@@ -4,7 +4,7 @@ import sys
 import json
 import anitopy
 import time
-from bot import ffmpeg
+from bot import ffmpeg, suffix
 from subprocess import call, check_output
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
@@ -29,7 +29,7 @@ def encode(filepath):
     if "episode_number" in new_name.keys():
       episode_no = new_name["episode_number"]
       joined_string = f"{joined_string}" + f" [Episode {episode_no}]"
-    og = joined_string + " [@ANIXPO]" + ".mkv"
+    og = joined_string + f" [{suffix}]" + ".mkv"
     strr = og
     return strr
 
