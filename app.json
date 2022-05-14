@@ -12,25 +12,26 @@
     "success_url": "https://github.com/Nirusaki/video-encoder-bot-1",
     "env": {
         "API_ID": {
-            "description": "",
+            "description": "Get From my.telegram.org",
             "required": "True"
         },
         "API_HASH": {
-            "description": "",
+            "description": "Get From my.telegram.org",
             "required": "True"
         },
         "BOT_TOKEN": {
-            "description": "",
+            "description": "Get From t.me/botfather",
             "required": "True"
         },
         "SUDO_USERS": {
-            "description": "Add Owner Id",
+            "description": "Get From Rose Bot",
             "required": "True"
         },
-        "DOWNLOAD_DIR": {
-            "description": "download/",
-            "required": "False"
-        }
+        "SUFFIX": {
+            "description": "Text After The Video",
+            "required": "False",
+            "value": "ANIXPO"
+       },
     },
     "stack": "container",
     "formation": {
