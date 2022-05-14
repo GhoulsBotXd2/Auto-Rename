@@ -4,7 +4,6 @@ A Telegram Bot For Series/Anime Channel Admins So That They Can Rename Quickly A
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Configuration
-Add values in environment variables or add them in [config.env.template](./config.env.template) and rename file to `config.env`.
 - `API_ID` - Get it by creating an app on [https://my.telegram.org](https://my.telegram.org)
 - `API_HASH` - Get it by creating an app on [https://my.telegram.org](https://my.telegram.org)
 - `BOT_TOKEN` - Get it by creating a bot on [https://t.me/BotFather](https://t.me/BotFather)
