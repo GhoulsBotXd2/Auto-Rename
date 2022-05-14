@@ -3,6 +3,8 @@ A Telegram Bot For Series/Anime Channel Admins So That They Can Rename Quickly A
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/18g9vy?referralCode=veB697)
+
 ### Configuration
 - `API_ID` - Get it by creating an app on [https://my.telegram.org](https://my.telegram.org)
 - `API_HASH` - Get it by creating an app on [https://my.telegram.org](https://my.telegram.org)
