@@ -1,5 +1,5 @@
 # Video Encoder Bot
-A Telegram bot to convert videos into x265/x264 format via ffmpeg.
+A Telegram Bot For Series/Anime Channel Admins So That They Can Rename Quickly And Efficently 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -9,18 +9,14 @@ Add values in environment variables or add them in [config.env.template](./confi
 - `API_HASH` - Get it by creating an app on [https://my.telegram.org](https://my.telegram.org)
 - `BOT_TOKEN` - Get it by creating a bot on [https://t.me/BotFather](https://t.me/BotFather)
 - `SUDO_USERS` - Chat identifier of the sudo user. For multiple users use space as seperator.
-- `DOWNLOAD_DIR` - (Optional) Temporary download directory to keep downloaded files.
+- `SUFIX` - Text After The Renamed File 
 
-### Configuring Encoding Format
-To change the ffmpeg profile edit them in [ffmpeg_utils.py](/bot/helper/ffmpeg_utils.py)
-
-### Installing Requirements
+```### Installing Requirements
 Install the required Python Modules in your machine.
-```sh
 apt-get -qq install ffmpeg
 pip3 install -r requirements.txt
-```
 ### Deployment
 With python3.7 or later.
-```sh
-python3 -m bot
+python3 -m bot```
+
+Thanks R136A1 For Helping Out
