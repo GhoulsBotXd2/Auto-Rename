@@ -1,4 +1,4 @@
-# Video Encoder Bot
+#<b> Video Renamer Bot </b>
 A Telegram Bot For Series/Anime Channel Admins So That They Can Rename Quickly And Efficently 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
