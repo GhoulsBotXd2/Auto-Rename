@@ -35,4 +35,10 @@ def encode_video(app, message):
      add_task(message)
     time.sleep(3)
 
+@app.on_message(filters.user(sudo_users) & filters.incoming & (filters.photo))
+def thumb(app,message):
+  message.download(file_name='thumb.jpg')
+  message.reply_text('Thumbnail Added')
+
+
 app.run()
