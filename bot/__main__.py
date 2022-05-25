@@ -33,5 +33,6 @@ def encode_video(app, message):
     data.append(message)
     if len(data) == 1:
      add_task(message)
+    time.sleep(3)
 
 app.run()
