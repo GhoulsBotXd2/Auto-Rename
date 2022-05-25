@@ -18,7 +18,10 @@ def add_task(message: Message):
       og = encode(filepath)
       if og:
         msg.edit("**⬆️ Starting To Upload**")
-        thumb = get_thumbnail(filepath)
+        if os.path.exists('thumb.jpg'):
+          thumb = 'thumb.jpg'
+        else:
+          thumb = get_thumbnail(filepath)
         width, height = get_width_height(filepath)
         duration2 = get_duration(filepath)
         msg.edit("**⬆️ Uploading Video ⬆️**")
